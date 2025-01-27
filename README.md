@@ -1,6 +1,6 @@
 # 🌐 Rocket Notes
 
-![Image](link-para-imagem) <!-- Coloque o link para a imagem desejada, se necessário -->
+![Image](https://github.com/IvanM4rtin5/Backend-Notes/blob/main/assets/images/287790227-1d3aeb53-965c-4c66-b90c-403203a5226c.png) 
 
 Rocket Notes é uma aplicação Back-End que permite o cadastro de usuários em um banco de dados, com a possibilidade de adicionar notas, links e tags, todos vinculados ao usuário.
 
