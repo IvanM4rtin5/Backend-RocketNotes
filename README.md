@@ -12,13 +12,15 @@ Projeto desenvolvido durante o curso Explorer oferecido pela RocketSeat.
 ## ⚙️ Funcionalidades
 
 
-- #⭐Cadastro e atualização de usuários com IDs únicos!
+- # ⭐ Cadastro e atualização de usuários com IDs únicos!
+
 ![Image](https://github.com/IvanM4rtin5/Backend-Notes/blob/main/assets/images/287793361-732acd6a-125a-4533-8df0-362de82c3341.png)
 
 - # ⭐ Criação, visualização e exclusão de notas, todas vinculadas aos usuários.
   
+![Image](https://github.com/IvanM4rtin5/Backend-Notes/blob/main/assets/images/287793658-9f372a88-2101-4ed5-b1c6-e356b89ce4a3.png)
 - # ⭐ Verificação de cada etapa, com mensagens de erro personalizadas em caso de falha.
-- 
+  
 
 ## 🧱 Pré-requisitos
 
