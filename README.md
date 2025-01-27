@@ -1,5 +1,6 @@
 # 🌐 Rocket Notes
 
+
 ![Image](https://github.com/IvanM4rtin5/Backend-Notes/blob/main/assets/images/287790227-1d3aeb53-965c-4c66-b90c-403203a5226c.png) 
 
 Rocket Notes é uma aplicação Back-End que permite o cadastro de usuários em um banco de dados, com a possibilidade de adicionar notas, links e tags, todos vinculados ao usuário.
@@ -9,6 +10,8 @@ Desenvolvido com Node.js, SQLite3 e diversas dependências como Express, Knex e 
 Projeto desenvolvido durante o curso Explorer oferecido pela RocketSeat.
 
 ## ⚙️ Funcionalidades
+
+![Image](https://github.com/IvanM4rtin5/Backend-Notes/blob/main/assets/images/287793361-732acd6a-125a-4533-8df0-362de82c3341.png)
 
 - **Cadastro e atualização de usuários** com IDs únicos!
 - **Criação, visualização e exclusão de notas**, todas vinculadas aos usuários.
