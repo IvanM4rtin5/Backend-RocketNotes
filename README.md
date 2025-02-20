@@ -41,7 +41,7 @@ Siga os passos abaixo para rodar a aplicação em seu ambiente local:
 
 1. Clone este repositório:
     ```bash
-    $ git clone https://github.com/dsouloficial/Rocket-Notes-Back-End
+    $ git clone https://github.com/IvanM4rtin5/Backend-Notes.git
     ```
 
 2. Instale as dependências:
