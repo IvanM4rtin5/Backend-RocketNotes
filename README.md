@@ -1,13 +1,20 @@
 # 🌐 Rocket Notes
 
-
-![Image](https://github.com/IvanM4rtin5/Backend-Notes/blob/main/assets/images/287790227-1d3aeb53-965c-4c66-b90c-403203a5226c.png) 
+[![JS](https://img.shields.io/badge/logo-javascript-blue?logo=javascript)](JavaScript)
+![NPM](https://img.shields.io/npm/v/npm.svg?logo=nodedotjs)
+[![Bundler](https://img.shields.io/badge/Bundler-Vite-B73BFE?logo=vite)](https://vitejs.dev/)
+[![Backend](https://img.shields.io/badge/Backend-Node.js-339933?logo=node.js)](https://nodejs.org/)
 
 Rocket Notes é uma aplicação Back-End que permite o cadastro de usuários em um banco de dados, com a possibilidade de adicionar notas, links e tags, todos vinculados ao usuário.
 
 Desenvolvido com Node.js, SQLite3 e diversas dependências como Express, Knex e Bcryptjs, essa aplicação oferece funcionalidades CRUD, autenticação e verificação de dados.
 
-Projeto desenvolvido durante o curso Explorer oferecido pela RocketSeat.
+Projeto desenvolvido durante o curso Explorer oferecido pela @RockeSeat.
+
+
+![Image](https://github.com/IvanM4rtin5/Backend-Notes/blob/main/assets/images/287790227-1d3aeb53-965c-4c66-b90c-403203a5226c.png) 
+
+
 
 ## ⚙️ Funcionalidades
 
