@@ -66,6 +66,10 @@ Backend-Notes/
 ├── package.json            # Dependências e scripts do projeto
 └── README.md               # Documentação do projeto
 ```
+## 🔗 Links Relacionados
+
+- Repositório do Front-end: [RocketNotes- Front-end](https://github.com/IvanM4rtin5/Front-RocketNotes/)
+
 ## 🎲 Como Executar o Projeto
 
 **Pré-requisitos**
@@ -111,16 +115,13 @@ npm start
 ```
 Acesse a API no Insomnia ou BeeKeeper Studio para testar as funcionalidades.
 
-## 📜 Licença
-Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
-
 ## 🙏 Agradecimentos
 Agradeço à Rocketseat pelo curso Explorer e por todo o suporte durante o desenvolvimento deste projeto. Também gostaria de agradecer à comunidade de desenvolvedores por compartilhar conhecimento e recursos.
 
 ## 📧 Contato
 Se você tiver alguma dúvida ou quiser entrar em contato, sinta-se à vontade para me enviar uma mensagem:
 
-**Nome**: [Ivan Martins]
+**Nome**: Ivan Martins
 
 **E-mail**: [ivanmarti.alves@gmail.com]
 
