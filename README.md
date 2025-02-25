@@ -1,85 +1,131 @@
-# 🌐 Rocket Notes
+# 🌐 Rocket Notes Backend
 
-[![JS](https://img.shields.io/badge/logo-javascript-blue?logo=javascript)](JavaScript)
-![NPM](https://img.shields.io/npm/v/npm.svg?logo=nodedotjs)
-[![Bundler](https://img.shields.io/badge/Bundler-Vite-B73BFE?logo=vite)](https://vitejs.dev/)
 [![Backend](https://img.shields.io/badge/Backend-Node.js-339933?logo=node.js)](https://nodejs.org/)
+[![Database](https://img.shields.io/badge/Database-SQLite3-003B57?logo=sqlite)](https://www.sqlite.org/)
+[![Framework](https://img.shields.io/badge/Framework-Express-000000?logo=express)](https://expressjs.com/)
+[![Dependencies](https://img.shields.io/badge/Dependencies-Knex%20%7C%20Bcryptjs-FF6F61?logo=npm)](https://www.npmjs.com/)
 
-Rocket Notes é uma aplicação Back-End que permite o cadastro de usuários em um banco de dados, com a possibilidade de adicionar notas, links e tags, todos vinculados ao usuário.
+Rocket Notes Backend é uma aplicação desenvolvida com Node.js que permite o cadastro de usuários, criação de notas, links e tags, todos vinculados a um usuário específico. O projeto utiliza SQLite3 como banco de dados e Express como framework para o servidor, além de bibliotecas como Knex e Bcryptjs para gerenciamento de queries e criptografia de senhas.
 
-Desenvolvido com Node.js, SQLite3 e diversas dependências como Express, Knex e Bcryptjs, essa aplicação oferece funcionalidades CRUD, autenticação e verificação de dados.
+Projeto desenvolvido durante o curso Explorer oferecido pela @Rocketseat.
 
-Projeto desenvolvido durante o curso Explorer oferecido pela @RockeSeat.
-
-
+## 🖼️ Demonstração
 ![Image](https://github.com/IvanM4rtin5/Backend-Notes/blob/main/assets/images/287790227-1d3aeb53-965c-4c66-b90c-403203a5226c.png) 
-
 
 
 ## ⚙️ Funcionalidades
 
+### ⭐ Cadastro e Atualização de Usuários
+Cadastro de usuários com IDs únicos.
 
- ### ⭐ Cadastro e atualização de usuários com IDs únicos!
+Atualização de informações do usuário, incluindo avatar.
 
 ![Image](https://github.com/IvanM4rtin5/Backend-Notes/blob/main/assets/images/287793361-732acd6a-125a-4533-8df0-362de82c3341.png)
 
- ### ⭐ Criação, visualização e exclusão de notas, todas vinculadas aos usuários.
-  
+### ⭐ Criação, Visualização e Exclusão de Notas
+Criação de notas vinculadas a usuários.
+
+Visualização e exclusão de notas.
+
 ![Image](https://github.com/IvanM4rtin5/Backend-Notes/blob/main/assets/images/287793658-9f372a88-2101-4ed5-b1c6-e356b89ce4a3.png)
 
- ### ⭐ Verificação de cada etapa, com mensagens de erro personalizadas em caso de falha.
-  
+### ⭐ Verificação e Mensagens de Erro Personalizadas
+Verificação de cada etapa do processo.
+
+Mensagens de erro personalizadas em caso de falha.
+
 ![Image](https://github.com/IvanM4rtin5/Backend-Notes/blob/main/assets/images/287793822-bdc319bc-09bd-42c9-9b8b-56ead77cab2a.png)
 
-### 🧱 Pré-requisitos
 
-Antes de começar, você vai precisar ter as seguintes ferramentas instaladas em sua máquina:
+## 🛠️ Tecnologias Utilizadas
+[![Backend](https://img.shields.io/badge/Backend-Node.js-339933?logo=node.js)](https://nodejs.org/)
 
-- [Git](https://git-scm.com/)
-- [Insomnia](https://insomnia.rest/)
-- [BeeKeeper Studio](https://www.beekeeperstudio.io/)
-- [SQLite3](https://www.sqlite.org/)
+<div align="left"> <img src="https://img.shields.io/badge/Node.js-18.x-339933?logo=node.js" alt="Node.js" /> <img src="https://img.shields.io/badge/Express-4.x-000000?logo=express" alt="Express" /> <img src="https://img.shields.io/badge/SQLite3-3.x-003B57?logo=sqlite" alt="SQLite3" /> <img src="https://img.shields.io/badge/Knex-2.x-FF6F61?logo=npm" alt="Knex" /> <img src="https://img.shields.io/badge/Bcryptjs-2.x-FF6F61?logo=npm" alt="Bcryptjs" /> </div>
+Ferramentas
+<div align="left"> <img src="https://img.shields.io/badge/Insomnia-2023-5849BE?logo=insomnia" alt="Insomnia" /> <img src="https://img.shields.io/badge/BeeKeeper%20Studio-3.x-FF7139?logo=beekeeper-studio" alt="BeeKeeper Studio" /> <img src="https://img.shields.io/badge/VSCode-1.x-007ACC?logo=visual-studio-code" alt="VSCode" /> </div> 
 
-Além disso, é recomendado ter um editor de código como [VSCode](https://code.visualstudio.com/).
+## 📂 Estrutura do Projeto
+```Copy
+Backend-Notes/
+├── src/                    # Código-fonte da aplicação
+│   ├── configs/            # Configurações (autenticação, upload, etc.)
+│   ├── controllers/        # Controladores das rotas
+│   ├── database/           # Configurações do banco de dados
+│   ├── middlewares/        # Middlewares (autenticação, etc.)
+│   ├── providers/          # Provedores de serviços (armazenamento, etc.)
+│   ├── routes/             # Definição das rotas da API
+│   ├── utils/              # Utilitários (tratamento de erros, etc.)
+│   └── server.js           # Ponto de entrada da aplicação
+├── assets/                 # Arquivos estáticos (imagens, etc.)
+│   └── images/             # Imagens do README
+├── tmp/                    # Arquivos temporários (uploads, etc.)
+│   └── uploads/            # Imagens de avatar dos usuários
+├── .gitignore              # Arquivos ignorados pelo Git
+├── knexfile.js             # Configuração do Knex
+├── package-lock.json       # Versões exatas das dependências
+├── package.json            # Dependências e scripts do projeto
+└── README.md               # Documentação do projeto
+```
+## 🎲 Como Executar o Projeto
 
-## 🎲 Rodando a aplicação
+**Pré-requisitos**
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 
-Siga os passos abaixo para rodar a aplicação em seu ambiente local:
+- **Git**
 
-1. Clone este repositório:
-    ```bash
-    $ git clone https://github.com/IvanM4rtin5/Backend-Notes.git
-    ```
+- **Node.js**
 
+- **Insomnia (para testar a API)**
+
+- **BeeKeeper Studio** (para gerenciar o banco de dados SQLite)
+
+- **SQLite3** (banco de dados utilizado)
+
+### Passo a Passo
+1. Clone o repositório:
+
+```bash
+Copy
+git clone https://github.com/IvanM4rtin5/Backend-RocketNotes.git
+```
+```
+cd Backend-Notes
+```
 2. Instale as dependências:
-    ```bash
-    $ npm install
-    ```
 
-3. Configure o `package.json` para usar o **nodemon** e **Knex** para iniciar as migrações do banco de dados.
+```bash
+Copy
+npm install
+```
+3. Execute as migrações do banco de dados:
 
-4. Rode as migrações:
-    ```bash
-    $ knex migrate:latest
-    ```
+```bash
+Copy
+npx knex migrate:latest
+```
+4. Inicie o servidor:
 
-5. Inicie a aplicação:
-    ```bash
-    $ npm start
-    ```
+```bash
+Copy
+npm start
+```
+Acesse a API no Insomnia ou BeeKeeper Studio para testar as funcionalidades.
 
-## 🛠 Tecnologias
+## 📜 Licença
+Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
-As seguintes ferramentas foram utilizadas no desenvolvimento do projeto:
+## 🙏 Agradecimentos
+Agradeço à Rocketseat pelo curso Explorer e por todo o suporte durante o desenvolvimento deste projeto. Também gostaria de agradecer à comunidade de desenvolvedores por compartilhar conhecimento e recursos.
 
-- **JavaScript** - Linguagem principal.
-- **Node.js** - Ambiente de execução para JavaScript no back-end.
-- **Express** - Framework para criação do servidor.
-- **Knex** - Biblioteca para construção e execução de queries SQL.
-- **Bcryptjs** - Biblioteca para criptografia de senhas.
-- **SQLite3** - Banco de dados utilizado para persistência dos dados.
-- **Insomnia & BeeKeeper** - Ferramentas para testar APIs e gerenciar bancos de dados SQLite.
+## 📧 Contato
+Se você tiver alguma dúvida ou quiser entrar em contato, sinta-se à vontade para me enviar uma mensagem:
+
+**Nome**: [Ivan Martins]
+
+**E-mail**: [ivanmarti.alves@gmail.com]
+
+**LinkedIn**: [https://www.linkedin.com/in/ivan-martins-alves/]
 
 ---
-
-Feito com ❤️ durante o curso Explorer da RocketSeat.
+Feito por [Ivan Martins]. 🚀
+---
