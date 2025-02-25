@@ -123,10 +123,10 @@ Se você tiver alguma dúvida ou quiser entrar em contato, sinta-se à vontade p
 
 **Nome**: Ivan Martins
 
-**E-mail**: [ivanmarti.alves@gmail.com]
+**E-mail**: ivanmarti.alves@gmail.com
 
-**LinkedIn**: [https://www.linkedin.com/in/ivan-martins-alves/]
+**LinkedIn**: https://www.linkedin.com/in/ivan-martins-alves/
 
 ---
-Feito por [Ivan Martins]. 🚀
+Feito por Ivan Martins. 🚀
 ---
